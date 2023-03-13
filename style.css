@@ -1,0 +1,13 @@
+.banner{
+    padding-top: 30px;
+    text-align: center;
+}
+.home{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
