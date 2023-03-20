@@ -1,13 +1,34 @@
-.banner{
-    padding-top: 30px;
-    text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.home{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-a:link {
+a ,a:link{
     text-decoration: none;
-    color: black;
-  }
+    color: #000;
+}
+header{
+    text-align: center;
+    background-color: #E4DCDC;
+    width: 100%;
+    padding: 1rem;
+}
+nav{
+    background-color: #D1CDCD;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+}
+nav ul li a{
+    padding: 0.5rem 0.75rem ;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+nav ul li a:hover{
+    background-color: #bcb7b7;
+}
+
